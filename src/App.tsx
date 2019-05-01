@@ -2,13 +2,19 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+function sum(a:number, b: number):number {
+  return a + b ;
+}
+
 function App() {
+ 
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
+          Sum of number is : {sum(2,15)}
         </p>
         <a
           className="App-link"
